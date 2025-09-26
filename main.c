@@ -5,6 +5,13 @@ void desimal_to_biner(int n) {
     int asli = n;
     int biner[32];
 
+     if (asli == 0) {
+        printf("Binner dari 0 : 0\n");
+        printf("Format 4-bit : 0000\n");
+        printf("Genap\n");
+        return;
+    }
+
     while (n > 0) {
         biner[i] = n % 2;
         n = n / 2;
