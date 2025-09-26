@@ -1,3 +1,9 @@
+
+
+
+
+
+
 #include <stdio.h>
 
 void desimal_to_biner(int n) {
